@@ -4,7 +4,7 @@ CFLAGS = $(CWARN) $(HEADERS)
 CWARN = -Wall -Werror -Wextra
 HEADERS = -I./inc
 DEBUG = -g
-DEBUG_ADDR = -fsanitize=address
+DEBUG_ADDR = -fsanitize=thread
 RM = rm -f
 
 SRCDIR = src
